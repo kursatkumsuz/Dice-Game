@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
+    android:background="@drawable/color_gradient"
     tools:context=".fragment.GameFragment">
 
     <LinearLayout
@@ -16,9 +17,9 @@
             android:id="@+id/playerOneScoreText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Score : 0"
+            android:text="Player One: 0"
             android:textSize="22sp"
-            android:textColor="#000"
+            android:textColor="#DAC4C4"
             android:textStyle="bold"
             android:layout_marginTop="20dp"></TextView>
         <ImageView
@@ -26,6 +27,7 @@
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:src="@drawable/ic_dice_1"
+            android:tint="#FFFFFF"
             android:layout_marginTop="20dp"></ImageView>
 
         <Button
@@ -34,7 +36,7 @@
             android:layout_height="wrap_content"
             android:textAllCaps="false"
             android:text="Roll Die"
-            android:backgroundTint="#1C203A"
+            android:backgroundTint="#114753"
             android:layout_marginTop="80dp"/>
     </LinearLayout>
 
@@ -48,9 +50,9 @@
             android:id="@+id/playerTwoScoreText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Score : 0"
+            android:text="Player Two: 0"
             android:textSize="22sp"
-            android:textColor="#000"
+            android:textColor="#DAC4C4"
             android:textStyle="bold"
             android:layout_marginTop="20dp"></TextView>
         <ImageView
@@ -58,6 +60,7 @@
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:src="@drawable/ic_dice_1"
+            android:tint="#FFFFFF"
             android:layout_marginTop="20dp"></ImageView>
 
         <Button
@@ -66,7 +69,7 @@
             android:layout_height="wrap_content"
             android:textAllCaps="false"
             android:text="Roll Die"
-            android:backgroundTint="#1C203A"
+            android:backgroundTint="#114753"
             android:layout_marginTop="80dp"/>
     </LinearLayout>
 </LinearLayout>
