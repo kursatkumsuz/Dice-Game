@@ -53,11 +53,12 @@ class GameFragment : Fragment() {
         }
     }
 
+
     private fun setScore() {
         viewModel.setRound()
         println("Click : ${viewModel.playerClick}")
-        binding.playerOneScoreText.text = viewModel.firstPlayerScore.toString()
-        binding.playerTwoScoreText.text = viewModel.secondPlayerScore.toString()
+        binding.playerOneScoreText.text = "Player One: ${viewModel.firstPlayerScore}"
+        binding.playerTwoScoreText.text = "Player Two: ${viewModel.secondPlayerScore}"
     }
 
 }
