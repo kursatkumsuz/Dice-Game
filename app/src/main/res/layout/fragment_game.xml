@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".fragment.GameFragment">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/playerOneScoreText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score : 0"
+            android:textSize="22sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"></TextView>
+        <ImageView
+            android:id="@+id/playerOneImageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_dice_1"
+            android:layout_marginTop="20dp"></ImageView>
+
+        <Button
+            android:id="@+id/playerOneBtn"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Roll Die"
+            android:backgroundTint="#1C203A"
+            android:layout_marginTop="80dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/playerTwoScoreText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score : 0"
+            android:textSize="22sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"></TextView>
+        <ImageView
+            android:id="@+id/playerTwoImageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_dice_1"
+            android:layout_marginTop="20dp"></ImageView>
+
+        <Button
+            android:id="@+id/playerTwoBtn"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:text="Roll Die"
+            android:backgroundTint="#1C203A"
+            android:layout_marginTop="80dp"/>
+    </LinearLayout>
+</LinearLayout>
